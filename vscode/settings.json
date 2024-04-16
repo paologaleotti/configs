@@ -1,44 +1,53 @@
 {
-    //
-    // editor settings
-    //
-    "editor.fontSize": 13,
-    "editor.fontFamily": "Cascadia Code, 'Courier New', monospace",
-    "editor.cursorBlinking": "smooth",
-    "editor.formatOnSave": true,
-    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
-    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-    //
-    // UI settings
-    //
-    "workbench.activityBar.location": "top",
-    "explorer.confirmDragAndDrop": false,
-    "workbench.layoutControl.enabled": false,
-    "explorer.compactFolders": false,
-    "window.commandCenter": false,
-    "editor.minimap.enabled": false,
-    "explorer.confirmDelete": false,
-    //
-    // git settings
-    //
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    //
-    // extensions settings
-    // 
-    "conventionalCommits.emojiFormat": "emoji",
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "redhat.telemetry.enabled": false,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": true,
-        "scminput": false
-    }
+	//
+	// editor settings
+	//
+	"editor.fontSize": 13,
+	"editor.fontFamily": "CommitMono, 'Courier New', monospace",
+	"editor.cursorBlinking": "smooth",
+	"editor.formatOnSave": true,
+	"workbench.colorTheme": "Monokai Pro",
+	"workbench.iconTheme": "Monokai Pro Icons",
+	"editor.wordWrap": "on",
+	"breadcrumbs.enabled": false,
+	//
+	// UI settings
+	//
+	"workbench.activityBar.location": "top",
+	"explorer.confirmDragAndDrop": false,
+	"workbench.layoutControl.enabled": false,
+	"explorer.compactFolders": false,
+	"window.commandCenter": false,
+	"editor.minimap.enabled": false,
+	"explorer.confirmDelete": false,
+	"workbench.startupEditor": "none",
+	//
+	// git settings
+	//
+	"git.enabled": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	//
+	// extensions settings
+	//
+	"conventionalCommits.emojiFormat": "emoji",
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"redhat.telemetry.enabled": false,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": true,
+		"scminput": false
+	},
+	"rust-analyzer.check.command": "clippy",
+	"go.toolsManagement.autoUpdate": true,
+	"rust-analyzer.cachePriming.numThreads": 20,
+	"rust-analyzer.inlayHints.typeHints.enable": false,
+	"editor.accessibilitySupport": "off",
 }
