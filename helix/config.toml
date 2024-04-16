@@ -12,3 +12,10 @@ select = "underline"
 
 [keys.normal]
 C-g = [":new", ":insert-output lazygit", ":buffer-close!", ":redraw"]
+C-s = ":w!"
+C-w = ":buffer-close"
+
+[keys.insert]
+C-s = ":w!"
+C-w = [":buffer-close", "normal_mode"]
+C-v = [":clipboard-paste-before"]
